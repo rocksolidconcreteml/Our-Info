@@ -74,16 +74,19 @@ body {
 }
 
 .hero h1 {
-  font-size: 3rem;
-  font-weight: 900;
+  font-family: 'Anton', 'Oswald', sans-serif;
+  font-size: 3.5rem;
+  font-weight: 700;
   text-transform: uppercase;
-  margin-bottom: 1rem;
-  color: #f2e2d2;
+  letter-spacing: 2px;
+  color: #f2e2d2; 
 }
 
 .hero p {
-  font-size: 1.3rem;
-  margin-bottom: 1.5rem;
+  font-family: 'Oswald', sans-serif;
+  font-size: 1.4rem;
+  font-weight: 400;
+  letter-spacing: 1px;
   color: #ffd27f;
 }
 
