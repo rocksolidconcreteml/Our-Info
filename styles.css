@@ -120,7 +120,7 @@ body {
 */
 
 .btn:hover {
-  background: rgba(140, 70, 50, 1);
+  background: rgb(73, 115, 182);
 }
 
 section {
@@ -144,7 +144,7 @@ section h2 {
 }
 
 .service-card {
-  background: rgba(140, 70, 50, 1);
+  background: rgb(73, 115, 182);
   color: #f2e2d2;
   padding: 1.5rem;
   border-radius: 8px;
