@@ -6,12 +6,12 @@ body, h1, h2, h3, p {
 body {
   font-family: "Arial Black", Impact, sans-serif;
   color: #f2e2d2;
-  background-color: #a8492b;
+  background-color: rgba(172, 96, 69, 0.01);
   line-height: 1.6;
 }
 
 .topbar {
-  background: #84371f;
+  background: rgba(172, 96, 69, 0.01);;
   color: #f2e2d2;
   text-align: center;
   padding: 0.5rem;
@@ -24,7 +24,7 @@ body {
   top: 0;
   left: 0;
   width: 100%;
-  background: #6b2f1c;
+  background:  rgba(172, 96, 69, 0.01);
   box-shadow: 0 2px 5px rgba(0,0,0,0.3);
   z-index: 1000;
 }
@@ -143,7 +143,7 @@ section h2 {
 }
 
 footer {
-  background: #6b2f1c;
+  background:  rgba(172, 96, 69, 0.01);
   color: #f2e2d2;
   text-align: center;
   padding: 1rem;
