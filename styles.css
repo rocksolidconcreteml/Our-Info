@@ -6,12 +6,12 @@ body, h1, h2, h3, p {
 body {
   font-family: "Arial Black", Impact, sans-serif;
   color: #f2e2d2;
-  background-color: rgba(171, 94, 67, 0.01);
+  background-color: rgba(171, 94, 67, 1);
   line-height: 1.6;
 }
 
 .topbar {
-  background: rgba(172, 96, 69, 0.01);;
+  background:  rgba(171, 94, 67, 1);
   color: #f2e2d2;
   text-align: center;
   padding: 0.5rem;
@@ -68,7 +68,7 @@ body {
 }
 
 .hero .overlay {
-  background: rgba(0,0,0,0.6);
+  background:  rgba(171, 94, 67, 1);
   padding: 2rem;
   border-radius: 8px;
 }
@@ -91,7 +91,7 @@ body {
 }
 
 .btn {
-  background: #d65b2e;
+  background: rgba(171, 94, 67, 1);
   color: white;
   padding: 0.75rem 1.5rem;
   text-decoration: none;
@@ -102,13 +102,13 @@ body {
 }
 
 .btn:hover {
-  background: #b74c25;
+  background:  rgba(171, 94, 67, 1);
 }
 
 section {
   padding: 3rem 2rem;
   text-align: center;
-  background-color: #a8492b;
+  background-color:  rgba(171, 94, 67, 1);
 }
 
 section h2 {
@@ -126,7 +126,7 @@ section h2 {
 }
 
 .service-card {
-  background: #84371f;
+  background:  rgba(171, 94, 67, 1);
   color: #f2e2d2;
   padding: 1.5rem;
   border-radius: 8px;
@@ -137,7 +137,7 @@ section h2 {
 
 .service-card:hover {
   transform: scale(1.05);
-  background: #6b2f1c;
+  background: rgba(171, 94, 67, 1);
 }
 
 #contact p {
@@ -146,7 +146,7 @@ section h2 {
 }
 
 footer {
-  background: rgba(171, 94, 67, 0.01);
+  background:  rgba(171, 94, 67, 1);
   color: #f2e2d2;
   text-align: center;
   padding: 1rem;
