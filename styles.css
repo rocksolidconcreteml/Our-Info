@@ -105,7 +105,7 @@ body {
 }
 
 .btn {
-  background: rgba(171, 94, 67, 1);
+  background: rgb(73, 115, 182); /* changed to blue */
   color: white;
   padding: 0.75rem 1.5rem;
   text-decoration: none;
@@ -115,10 +115,11 @@ body {
   letter-spacing: 1px;
   display: inline-block;
   margin-top: 1rem;
+  z-index: 10;
 }
 
 .btn:hover {
-  background: rgb(73, 115, 182);
+  background: #4a7cd6;
 }
 
 section {
