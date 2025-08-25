@@ -7,26 +7,21 @@
   <link rel="stylesheet" href="styles.css" />
 </head>
 
-
-
-
 <body>
-
-
 
   <!-- Top bar -->
   <div class="topbar">
-    <p>_____Blah Blahh </p>
+    <p>Call us today! (123) 456-7890</p>
   </div>
 
-  <!-- Header with logo -->
-  <!-- <header class="hero">
+  <!-- Hero Header -->
+  <header class="hero">
     <div class="overlay">
       <h1>Rock Solid Concrete</h1>
       <p>We Drive Projects to Completion with Quality</p>
       <a href="#contact" class="btn">Get a Free Quote</a>
     </div>
-  </header> > 
+  </header>
 
   <!-- Navigation -->
   <nav>
@@ -36,7 +31,6 @@
     <a href="#contact">Contact</a>
   </nav>
 
-  
   <!-- Services Section -->
   <section id="services">
     <h2>Our Services</h2>
@@ -67,5 +61,6 @@
   <footer>
     <p>&copy; 2025 Rock Solid Concrete Services. All rights reserved.</p>
   </footer>
+
 </body>
 </html>
