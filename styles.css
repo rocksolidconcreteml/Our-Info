@@ -11,7 +11,7 @@ body {
 }
 
 .topbar {
-  background:  rgba(171, 94, 67, 1);
+  background: rgba(171, 94, 67, 1);
   color: #f2e2d2;
   text-align: center;
   padding: 0.5rem;
@@ -68,13 +68,9 @@ body {
 }
 
 .hero .overlay {
-  background:  rgba(171, 94, 67, 1);
+  background: rgba(171, 94, 67, 0.9);
   padding: 2rem;
   border-radius: 8px;
-}
-
-.hero h1 {
-  margin-bottom: 1.5rem; 
 }
 
 .hero h1 {
@@ -84,6 +80,7 @@ body {
   text-transform: uppercase;
   letter-spacing: 2px;
   color: #f2e2d2; 
+  margin-bottom: 1.5rem;
 }
 
 .hero p {
@@ -92,6 +89,7 @@ body {
   font-weight: 400;
   letter-spacing: 1px;
   color: #ffd27f;
+  margin-bottom: 2rem; /* ensures button doesn't overlap */
 }
 
 .btn {
@@ -103,16 +101,18 @@ body {
   font-weight: bold;
   text-transform: uppercase;
   letter-spacing: 1px;
+  display: inline-block;
+  margin-top: 1rem; /* extra spacing from text */
 }
 
 .btn:hover {
-  background:  rgba(171, 94, 67, 1);
+  background: rgba(140, 70, 50, 1);
 }
 
 section {
   padding: 3rem 2rem;
   text-align: center;
-  background-color:  rgba(171, 94, 67, 1);
+  background-color: rgba(171, 94, 67, 1);
 }
 
 section h2 {
@@ -130,7 +130,7 @@ section h2 {
 }
 
 .service-card {
-  background:  rgba(171, 94, 67, 1);
+  background: rgba(140, 70, 50, 1);
   color: #f2e2d2;
   padding: 1.5rem;
   border-radius: 8px;
@@ -150,7 +150,7 @@ section h2 {
 }
 
 footer {
-  background:  rgba(171, 94, 67, 1);
+  background: rgba(171, 94, 67, 1);
   color: #f2e2d2;
   text-align: center;
   padding: 1rem;
