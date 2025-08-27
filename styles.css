@@ -32,10 +32,16 @@ body {
 .nav-container {
   display: flex;
   align-items: center;
-  justify-content: space-between;
+  justify-content: flex-start; /* move everything left */
   max-width: 1200px;
   margin: 0 auto;
   padding: 0.5rem 1rem;
+}
+
+.logo {
+  display: flex;
+  align-items: center;
+  margin-right: 40px; /* spacing between logo and links */
 }
 
 .logo img {
@@ -51,8 +57,12 @@ body {
   vertical-align: middle;
 }
 
+.nav-links {
+  display: flex;
+  gap: 20px; /* spacing between links */
+}
+
 .nav-links a {
-  margin-left: 20px;
   text-decoration: none;
   color: #f2e2d2;
   font-weight: bold;
@@ -105,7 +115,7 @@ body {
 }
 
 .btn {
-  background: rgb(73, 115, 182); /* changed to blue */
+  background: rgb(73, 115, 182);
   color: white;
   padding: 0.75rem 1.5rem;
   text-decoration: none;
@@ -116,10 +126,15 @@ body {
   display: inline-block;
   margin-top: 1rem;
   z-index: 10;
+  transition: background 0.2s ease;
 }
 
 .btn:hover {
-  background: #4a7cd6;
+  background: rgb(100, 140, 200); 
+}
+
+.btn:active {
+  background: rgb(140, 170, 220); 
 }
 
 section {
@@ -149,7 +164,7 @@ section h2 {
   border-radius: 8px;
   font-weight: 600;
   box-shadow: 0 2px 6px rgba(0,0,0,0.3);
-  transition: transform 0.2s ease;
+  transition: transform 0.2s ease, background 0.2s ease;
 }
 
 .service-card:hover {
