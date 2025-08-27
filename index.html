@@ -64,7 +64,7 @@
 <section id = "gallery">
   <h2>Our Gallery</h2>
   <div class = "gallery">
-    <img src ="" alt = "Patio"/>
+    <img id = "slideshow" src ="gallery_photos/Screenshot 2025-08-27 at 3.40.10 PM.png"/>
 
   </div>
 </section>
@@ -80,6 +80,30 @@
   <footer>
     <p>&copy; 2025 Rock Solid Concrete M&L. All rights reserved.</p>
   </footer>
+
+
+  <script>
+    const images = [
+      "gallery_photos/Screenshot 2025-08-27 at 3.40.10 PM.png",
+      "gallery_photos/Screenshot 2025-08-27 at 3.40.35 PM.png",
+      "gallery_photos/Screenshot 2025-08-27 at 3.43.36 PM.png",
+      "gallery_photos/Screenshot 2025-08-27 at 3.43.46 PM.png",
+
+    ];
+
+    let index = 0; 
+    const slideshow = document.getElementById("slideshow");
+
+
+    function changeImage() {
+      index = (index + 1) % images.length;
+
+      slideshow.src = images[index];
+
+    }
+
+    setInterval(changeImage, 3000);
+  </script>
 
 </body>
 </html>
