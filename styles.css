@@ -32,7 +32,7 @@ body {
 .nav-container {
   display: flex;
   align-items: center;
-  justify-content: flex-start; /* move everything left */
+  justify-content: space-between; 
   max-width: 1200px;
   margin: 0 auto;
   padding: 0.5rem 1rem;
@@ -41,7 +41,7 @@ body {
 .logo {
   display: flex;
   align-items: center;
-  margin-right: 40px; /* spacing between logo and links */
+  
 }
 
 .logo img {
@@ -130,11 +130,11 @@ body {
 }
 
 .btn:hover {
-  background: rgb(100, 140, 200); 
+  background: rgb(100, 140, 200); /* lighter blue */
 }
 
 .btn:active {
-  background: rgb(140, 170, 220); 
+  background: rgb(140, 170, 220); /* even lighter when pressed */
 }
 
 section {
@@ -158,7 +158,7 @@ section h2 {
 }
 
 .service-card {
-  background: rgb(73, 115, 182);
+  background: rgb(73, 115, 182); /* blue */
   color: #f2e2d2;
   padding: 1.5rem;
   border-radius: 8px;
@@ -169,7 +169,11 @@ section h2 {
 
 .service-card:hover {
   transform: scale(1.05);
-  background: rgba(171, 94, 67, 1);
+  background: rgb(100, 140, 200); /* lighter blue on hover */
+}
+
+.service-card:active {
+  background: rgb(140, 170, 220); /* even lighter when pressed */
 }
 
 #contact p {
